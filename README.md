@@ -1,4 +1,5 @@
-![logo1rbg](https://github.com/Jaimezpe/tisklast/assets/85058301/21b1a9fe-b48e-48d8-8c24-c53939ee5324)
+![logo1rbg](https://github.com/Jaimezpe/tisklast/assets/85058301/8438863f-040f-43fb-bacf-95daa5832939)
+
 
 
 
