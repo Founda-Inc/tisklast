@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TiskLast</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TiskLast &#8212; Take note of your things." />
+    <meta property="og:description"
+        content="Would you like to keep track of your things in a simple and organized way? Then this is the right place for you!" />
+    <meta property="og:url" content="TiskLast" />
+    <meta property="og:site_name" content="Tisklast" />
+    <link rel="shortcut icon" href="./img/logo1rbg.png">
+    <script src="interface.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="todo">
+        <center>
+            <div class="barraarriba">
+                <a href="https://tisklast.vercel.app" style="text-decoration: none; color: black;">
+                    <div class="tisklastnombre hover-grow">
+                        <img src="/img/logo1rbg.png" alt="TiskLast" class="logotisklast">
+                        <p color="white">Tisklast</p>
+                    </div>
+                </a>
+                <div class="idioma hover-grow">
+                    <a href="es" style="text-decoration: none; color: black;">
+                        <p style="font-size: 20px;">🇬🇧</p>
+                    </a>
+                </div>
+                <div class="byfounda hover-grow">
+                    <a href="https://founda.vercel.app" style="text-decoration: none;">
+                        <p style=" color: black;">by Founda</p>
+                    </a>
+                    <img src="/img/founda.png" alt="Founda" class="logofounda">
+                </div>
+            </div>
+
+            <div class="organization">
+                <div class="notes">
+                    <input type="text" id="taskInput" placeholder="Escribe aquí tu tarea"
+                        style="background-color: #eaeaea; border-radius: 10px; border: none; padding: 10px; margin-bottom: 10px; width: 300px;">
+                    <button onclick="addTask()">Añadir</button>
+
+
+                    <div class="container">
+                        <ul id="taskList"></ul>
+
+                    </div>
+                </div>
+
+                <div class="containernotas">
+                    <textarea name="notas" id="notas" placeholder="Escribe tus notas aquí"
+                        style="background-color: #eaeaea; border-radius: 10px; border: none; padding: 10px; margin-bottom: 10px; width: 300px;"
+                        font-family="" roboto"></textarea>
+
+                </div>
+            </div>
+        </center>
+    </div>
+
+
+
+
+    <div class="divfinaldepagina">
+
+
+        <center style="margin-bottom: 20px;">
+            <div class="helplink hover-grow">
+                <a href="https://tisklast.vercel.app/tisklast.pdf" style="text-decoration: none; color: white;">
+                    Ayuda</a>
+            </div>
+        </center>
+
+
+
+    </div>
+</body>
+
+</html>
