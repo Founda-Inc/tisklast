@@ -23,4 +23,4 @@ mark it as done. If you need to add a quick note, type it in the box below.
 
 ## Help
 
-If you need assistance with anything, please email here founda.vercel.app
+If you need assistance with anything, please email here founda.apps@proton.me
